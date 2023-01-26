@@ -1,0 +1,1 @@
+DELETE FROM Mark WHERE mark<7;
