@@ -2,6 +2,6 @@
 
 -- SELECT
 
-SELECT avg(mark) FROM Mark m LEFT JOIN Subject s ON m.subject_id=s.id WHERE s.name='maths';
+SELECT avg(mark) FROM Mark m WHERE m.subject_id= (SELECT id FROM Subject WHERE name='Math');
 
-SELECT min(amount) FROM Payment p LEFT JOIN PaymentType pt ON p.type_id=pt.id WHERE pt.name='WEEKLY';
+SELECT min(amount) FROM Payment WHERE type_id=(SELECT id FROM PaymentType WHERE name='WEEKLY');
