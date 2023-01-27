@@ -18,7 +18,8 @@ INSERT INTO Subject(id, name,description,grade) values(5, 'PE', 'PE subject', 3)
 INSERT INTO Subject(id, name,description,grade) values(6, 'Math', 'maths subject',3);
 INSERT INTO Subject(id, name,description,grade) values(7, 'Science', 'Science subject', 4);
 INSERT INTO Subject(id, name,description,grade) values(8, 'IT', 'IT subject',  4);
-INSERT INTO Subject(id, name,description,grade) values(9, 'Compiler', 'Compiler', 5),(10, 'Systems', 'Systems', 5));
+INSERT INTO Subject(id, name,description,grade) values(9, 'Compiler', 'Compiler', 5);
+INSERT INTO Subject(id, name,description,grade) values(10, 'Systems', 'Systems', 5));
 
 INSERT INTO PaymentType(id,name) values(1, 'DAILY');
 INSERT INTO PaymentType(id,name) values(2, 'WEEKLY');
@@ -27,7 +28,7 @@ INSERT INTO PaymentType(id,name) values(3, 'MONTHLY');
 INSERT INTO Payment(id, type_id, amount, student_id, payment_date) values(1,2,1000,1,'2020-10-10');
 INSERT INTO Payment(id, type_id, amount, student_id, payment_date) values(2,3,4000,4,'2020-11-10');
 INSERT INTO Payment(id, type_id, amount, student_id, payment_date) values(3,2,1000,7,'2020-11-10');
-INSERT INTO Payment(id, type_id, amount, student_id, payment_date) values(4,1,200,5,'2020-10-10');
+INSERT INTO Payment(id, type_id, amount, student_id, payment_date) values(4,1,200,5,'2015-09-15');
 INSERT INTO Payment(id, type_id, amount, student_id, payment_date) values(5,1,200,9,'2020-10-10');
 INSERT INTO Payment(id, type_id, amount, student_id, payment_date) values(6,3,4000,6,'2020-12-22');
 INSERT INTO Payment(id, type_id, amount, student_id, payment_date) values(7,3,4000,11,'2020-09-15');

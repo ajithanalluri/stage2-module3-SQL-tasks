@@ -1,8 +1,8 @@
 SELECT * FROM Payment WHERE amount >= 500;
 
-SELECT ;
+SELECT * FROM Student WHERE DATEDIFF (YEAR , birthday , now()) > 20;
 
-SELECT * FROM Student WHERE groupnumber=10 AND birthday;
+SELECT * FROM Student WHERE groupnumber=10 AND DATEDIFF (YEAR , birthday , now()) < 20;
 
 SELECT * FROM Student WHERE name='Mike' AND groupnumber IN (4,5,6);
 
