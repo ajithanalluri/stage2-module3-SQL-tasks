@@ -19,7 +19,7 @@ INSERT INTO Subject(id, name,description,grade) values(6, 'Math', 'maths subject
 INSERT INTO Subject(id, name,description,grade) values(7, 'Science', 'Science subject', 4);
 INSERT INTO Subject(id, name,description,grade) values(8, 'IT', 'IT subject',  4);
 INSERT INTO Subject(id, name,description,grade) values(9, 'Compiler', 'Compiler', 5);
-INSERT INTO Subject(id, name,description,grade) values(10, 'Systems', 'Systems', 5));
+INSERT INTO Subject(id, name,description,grade) values(10, 'Systems', 'Systems', 5);
 
 INSERT INTO PaymentType(id,name) values(1, 'DAILY');
 INSERT INTO PaymentType(id,name) values(2, 'WEEKLY');

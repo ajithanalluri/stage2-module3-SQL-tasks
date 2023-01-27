@@ -4,9 +4,9 @@ SELECT * FROM Student WHERE DATEDIFF (YEAR , birthday , now()) > 20;
 
 SELECT * FROM Student WHERE groupnumber=10 AND DATEDIFF (YEAR , birthday , now()) < 20;
 
-SELECT * FROM Student WHERE name='Mike' AND groupnumber IN (4,5,6);
+SELECT * FROM Student WHERE name='Mike' OR groupnumber IN (4,5,6);
 
-SELECT;
+SELECT * FROM Payment WHERE DATEDIFF (MONTH , payment_date , now()) < 8;
 
 SELECT * FROM Student WHERE name LIKE 'A%';
 
